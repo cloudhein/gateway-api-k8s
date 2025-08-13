@@ -1,0 +1,17 @@
+providers:
+  kubernetesGateway:
+    enabled: true
+
+ports:
+  traefik:
+    port: 8080
+    expose:
+      default: false
+  web:
+    port: 8000
+    expose:
+      default: true
+  http:
+    port: 80
+    expose:
+      default: true

@@ -1,0 +1,6 @@
+global:
+  name: consul
+connectInject:
+  enabled: true
+  apiGateway:
+    manageExternalCRDs: true

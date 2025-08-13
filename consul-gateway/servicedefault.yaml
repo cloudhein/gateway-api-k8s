@@ -1,0 +1,31 @@
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceDefaults
+metadata:
+  name: productpage
+  namespace: default
+spec:
+  protocol: "http"
+---
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceDefaults
+metadata:
+  name: details
+  namespace: default
+spec:
+  protocol: "http"
+---
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceDefaults
+metadata:
+  name: reviews
+  namespace: default
+spec:
+  protocol: "http"
+---
+apiVersion: consul.hashicorp.com/v1alpha1
+kind: ServiceDefaults
+metadata:
+  name: ratings
+  namespace: default
+spec:
+  protocol: "http"
